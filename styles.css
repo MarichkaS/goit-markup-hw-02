@@ -1,0 +1,248 @@
+/*загальні налаштування*/
+
+:root {
+    --primary-brand: #4D5AE5;
+    --dark-color: #2E2F42;
+    --success-color: #31D0AA;
+    --text-color: #434455;
+    --subtle-text: #8E8F99;
+    --accent-color: #E7E9FC;
+    --light-color: #F4F4FD;
+    --white-color: #FFFFFF;
+
+}
+
+
+body {
+    background: var(--white-color);
+    color: var(--text-color);
+    font-family: Roboto, sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* logo header */
+.logo-header {
+    color: var(--dark-color);
+    font-family: Raleway, sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    text-transform: uppercase;
+}
+
+.logo-header:focus {
+    color: var(--primary-brand);
+}
+
+.web-header {
+    color: var(--primary-brand);
+    font-family: Raleway, sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    text-transform: uppercase;
+}
+
+.web-header:focus {
+    color: var(--dark-color);
+}
+
+
+/* logo footer*/
+
+.logo-footer {
+    color: var(--light-color);
+    font-family: Raleway, sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    text-transform: uppercase;
+}
+
+.logo-footer:focus {
+    color: var(--primary-brand);
+}
+
+.web-footer {
+    color: var(--primary-brand);
+    font-family: Raleway, sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    text-transform: uppercase;
+}
+
+.web-footer:focus {
+    color: var(--light-color);
+}
+
+
+/*site navigation*/
+.site-nav .link {
+    color: var(--dark-color);
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--text-color);
+}
+
+.site-nav .link:active {
+    color: var(--primary-brand);
+}
+
+/* contacts */
+.contacts-link {
+    color: var(--text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
+    color: var(--primary-brand);
+}
+
+/*hero */
+.hero {
+    background: var(--dark-color);
+}
+
+.hero-title {
+    color: var(--white-color);
+    fon-weight: 600;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+}
+
+.hero-button {
+    color: var(--white-color);
+    background-color: var(--primary-brand);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.18;
+    align-items: center;
+    cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    color: var(--light-color);
+    background-color: var(--primary-brand);
+}
+
+.hero-button:active {
+    color: var(--primary-brand);
+    background-color: var(--light-color);
+}
+
+
+/* whu we are */
+
+.section-secondary {
+    color: var(--dark-color);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+/* what are we doing*/
+
+.section-title {
+    color: var(--dark-color);
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.1;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.section-text {
+    color: var(--text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Our Team */
+
+.gray-section {
+    background-color: var(--light-color);
+}
+
+.gray-section .title {
+    color: var(--dark-color);
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.1;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.gray-section .secondary {
+    color: var(--dark-color);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.gray-section .text {
+    color: var(--text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* footer */
+
+footer {
+    background-color: var(--dark-color);
+}
+
+.footer-text {
+    color: var(--accent-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/*p. portfolio*/
+
+
+/* section button*/
+
+.filter-button {
+    background-color: var(--light-color);
+    font-family: inherit;
+    color: var(--primary-brand);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    cursor: pointer;
+}
+
+.filter-button:hover,
+.filter-button:focus {
+    background-color: var(--primary-brand);
+    color: var(--white-color);
+}
+
+.white-text {
+    color: var(--light-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
